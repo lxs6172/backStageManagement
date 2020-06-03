@@ -1,0 +1,116 @@
+/*公共样式*/
+$bgc: #f0f2f5;
+html,
+body,
+#app {
+    height: 100%;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 94%;
+    margin: 0 auto;
+  position: relative;
+}
+.top-bar {
+    color:#909399;
+    height:45px;
+    font-size:14px;
+    font-weight:700;
+    border-bottom:1px dotted rgba(0,0,0,.2);
+    padding: 6px 0;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.content-container {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-title {
+    color: #000;
+}
+.button-zone {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    //& > * {
+    //    margin-right: 3%;
+    //}
+}
+.app-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+.main-container {
+    min-height: 100vh;
+    transition: margin-left 0.28s;
+    margin-left: 160px;
+    background-color: $bgc;
+    overflow: hidden;
+}
+.public {
+    background-color: $bgc;
+    width: 100%;
+    height: 100%;
+}
+.public-container {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+}
+.el-table--enable-row-hover .el-table__body tr:hover>td{
+    background-color: #CAE1FF !important;
+}
+.content-container .paging{
+    text-align: right;
+    padding:30px 0px 10px 10px;
+}
+.el-breadcrumb__inner {
+    color:rgb(144, 147, 153) !important;
+}
+.el-breadcrumb__inner:hover {
+    color: #188fff;
+}
+.breadcrumb-nav {
+    flex: 1;
+    line-height: 32px;
+}
+.demo-ruleForm{
+    padding-right: 30px;
+}
+.content-top{
+    border-bottom: 1px dotted gray;
+    padding: 20px 0 10px;
+    margin-bottom: 10px;
+}
+.pagination {
+    margin-top: 10px;
+}
+
+.el-card__body {
+    padding: 10px !important;
+}
+.activeClass {
+    color: #409EFF;
+}
+
+.activeClass:hover {
+    color: #409EFF;
+    cursor: pointer;
+}

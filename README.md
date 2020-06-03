@@ -1,29 +1,18 @@
-# management
+# cmp-web
 
-## Project setup
+## 项目安装
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 开发环境编译（支持热加载）
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 生产环境编译
 ```
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
